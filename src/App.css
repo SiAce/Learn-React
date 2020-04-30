@@ -10,3 +10,28 @@
   font-weight: bold;
 }
 
+button.button {
+  font-size: 1em;
+  padding: 1em;
+  color: white;
+}
+
+button.button:hover {
+  color: black;
+}
+
+button.button.green {
+  background-color: green;
+}
+
+button.button.green:hover {
+  background-color: lightgreen;
+}
+
+button.button.red {
+  background-color: red;
+}
+
+button.button.red:hover {
+  background-color: salmon;
+}
